@@ -1,0 +1,117 @@
+@font-face {
+  font-family: PlayfairDisplay-BlackItalic;
+  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/Poppins/Poppins-Medium.ttf'); 
+}
+
+body{
+    background-color: white;
+    
+}
+
+.container{
+    /* background-color: brown; */
+    padding: 2%;
+    padding-bottom: 0.5%;
+    color: black;
+
+}
+
+.container h1{
+    font-family: PlayfairDisplay-BlackItalic;
+    color: black;
+    padding-bottom: 5vh;
+}
+
+.container h2{
+    font-family: PlayfairDisplay-BlackItalic;
+    text-align: center;
+    padding-bottom: 5vh;
+    font-size: 230%;
+}
+.point_of_view{
+    font-family: PlayfairDisplay-BlackItalic;
+    background-image: url("../images/templates/e.jpeg");
+    padding: 20% 20%;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+
+}
+
+
+/* ----------------navbar---------------- */
+/* link animation */
+
+.container-fluid a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(212, 211, 211);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.container-fluid a:hover:after { 
+  width: 95%; 
+  left: 0; 
+}
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+
+/* ------------------------------------------ */
+
+
+.container-fluid{
+  padding: 3%;
+  margin-top: 5vh;
+  background-color: black;
+  text-align: center;
+  font-size: small;
+  
+}
+
+.container-fluid a{
+  font-size: 110%;
+  color: grey;
+  padding: 0% 1% 0% 1%;
+  font-family: 'Rokkitt', serif;
+  /* border-bottom: 1px  solid gray; */
+  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 20vh;
+  padding-left: 11%;
+  grid-column-gap: 1%;
+  grid-row-gap: 10%;
+  grid-gap: 10%;
+  margin-bottom: 10vh;
+  /* background-color: blue; */
+}
+
+.grid-image {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  /* text-align: center; */
+  width: 95%;
+}
