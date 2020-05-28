@@ -39,14 +39,21 @@ body{
     font-size: 230%;
 }
 .point_of_view{
-    font-family: PlayfairDisplay-BlackItalic;
-    background-image: url("../images/templates/e.jpeg");
-    padding: 20% 20%;
-    /* background-repeat: no-repeat; */
-    background-size: cover;
+  font-family: PlayfairDisplay-BlackItalic;
+  background-image: url("../images/templates/f.jpeg");
+  padding: 35vh;
+  background-color: aqua;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 
 }
 
+.img-responsive{
+  width: 80%;
+  height: 5%;
+}
 
 /* ----------------navbar---------------- */
 /* link animation */
@@ -102,16 +109,16 @@ body{
   display: grid;
   grid-template-columns: auto auto;
   margin-top: 20vh;
-  padding-left: 11%;
+  /* padding-left: 8%; */
   grid-column-gap: 1%;
   grid-row-gap: 10%;
-  grid-gap: 10%;
+  grid-gap: 5%;
   margin-bottom: 10vh;
   /* background-color: blue; */
 }
 
 .grid-image {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
   /* text-align: center; */
-  width: 95%;
+  width: 100%;
 }
