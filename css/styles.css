@@ -1,18 +1,3 @@
-@font-face {
-  font-family: PlayfairDisplay-BlackItalic;
-  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/Poppins/Poppins-Medium.ttf'); 
-}
-
 body{
     background-color: white;
     
@@ -29,25 +14,23 @@ body{
 .container h1{
     font-family: PlayfairDisplay-BlackItalic;
     color: black;
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
 }
 
 .container h2{
     font-family: PlayfairDisplay-BlackItalic;
     text-align: center;
-    padding-bottom: 5vh;
+    padding-bottom: 2vh;
     font-size: 230%;
 }
 .point_of_view{
   font-family: PlayfairDisplay-BlackItalic;
-  background-image: url("../images/templates/f.jpeg");
+  background-image: url("../images/templates1/12.jpeg");
   padding: 35vh;
   background-color: aqua;
   text-align: center;
-  background-repeat: no-repeat;
   background-size: cover;
-
-
+  border-radius: 8px;
 }
 
 .img-responsive{
@@ -121,4 +104,26 @@ body{
   /* border: 1px solid rgba(0, 0, 0, 0.8); */
   /* text-align: center; */
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    text-align: center;
+  }
+
+  .container h2 {
+    font-size: 8vw;
+  }
+
+  .point_of_view{
+    padding: 40vw;
+  }
+
+  .grid-container{
+    display: inline;
+  }
+
+  .container-fluid{
+    font-size: 100%;
+  }
 }

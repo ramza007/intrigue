@@ -1,0 +1,26 @@
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: orange;
+}
+
+@font-face {
+  font-family: PlayfairDisplay-BlackItalic;
+  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/Poppins/Poppins-Medium.ttf'); 
+}
