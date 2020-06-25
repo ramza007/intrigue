@@ -23,6 +23,7 @@ body{
     padding-bottom: 2vh;
     font-size: 230%;
 }
+
 .point_of_view{
   font-family: PlayfairDisplay-BlackItalic;
   /* background-image: url("../images/templates1/03.49.35.jpeg"); */
@@ -112,7 +113,7 @@ body{
   }
 
   .container h2 {
-    font-size: 8vw;
+    font-size: 7vw;
   }
 
   .point_of_view{
@@ -125,5 +126,20 @@ body{
 
   .container-fluid{
     font-size: 100%;
+  }
+
+  .img-responsive{
+  width: 100%;
+  /* height: 10%; */
+  display: none;
+  }
+
+  .point_of_view{
+    background-color: violet;
+    padding: 0;
+  }
+  
+  .container-fluid{
+    margin-bottom: 100%;
   }
 }
